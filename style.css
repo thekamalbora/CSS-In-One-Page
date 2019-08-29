@@ -1,0 +1,203 @@
+h2{
+    color: red;
+}
+
+#FirstID{
+    
+    color: blue;
+}
+
+.FirstClass{
+    color: brown;
+}
+
+.bgproperty{
+    width: 100%;
+    height: 20%;
+    background-color: cyan;
+}
+
+.bgimage{
+    width: 100%;
+    height: 50%;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-attachment:fixed;
+}
+
+.bgimage1{
+    
+    width: 100%;
+    height: 50%;
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%,100%;
+    background-attachment:fixed;
+}
+#font_familly{
+    font-family:'Lexend Zetta', sans-serif; 
+}
+
+#fntstyle{
+    font-style: oblique
+}
+#fntvareint{
+    font-variant: small-caps;
+}
+#fntsize{
+    font-size: 2em;
+}
+
+#fntweight{
+    font-weight: bold;
+}
+#txtcolor{
+    color: red;
+}
+
+#txtletterspacing{
+    letter-spacing: 10px;
+}
+
+#txtwordspacing{
+    word-spacing: 10px;
+}
+
+#txtdirection{
+    direction: rtl;
+}
+
+#txtindent{
+    text-indent: 50px;
+}
+
+#txtdecoration{
+    text-decoration: overline;
+}
+
+#txttransform{
+    text-transform: uppercase;
+}
+
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:active{
+    color: brown;
+}
+
+.bordercss{
+    width: 500px;
+    height: 200px;
+    background-color: aqua;
+  /*  border-width: 5px;
+    
+    border-color:red;
+    border-style: solid;*/
+    border: 5px solid red;
+    border-radius: 20px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+
+ol{
+    list-style-type:upper-roman
+}
+
+.boxmodel{
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    padding: 50px;
+}
+
+.scrollbar{
+    width: 200PX;
+    height: 100px;
+    border: 1px solid red;
+    overflow: scroll;
+}
+
+.father{
+   width: 600px;
+    height: 300px;
+background-color: reD;
+    position: relative;
+}
+
+.child1{
+    width: 100px;
+    height: 60px;
+    background-color: green;
+    position: absolute;
+    left: 0;
+}
+
+.child2{
+    width: 100px;
+    height: 60px;
+    background-color: cyan
+        ;
+    position: absolute;
+    right: 0;
+}
+
+.child3{
+    width: 100px;
+    height: 60px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.child4{
+    width: 100px;
+    height: 60px;
+    background-color: blue;
+    position: absolute;
+       bottom: 0;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.logo{
+    
+    width: 30%;
+    line-height: 80px;
+    background-color: orangered;
+    text-align: center;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    line-height: 46px;
+    background-color: red;
+    float: right;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+}
+li{
+    display: inline-block;
+    border:1px solid black;
+    padding: 0 10px;
+}
